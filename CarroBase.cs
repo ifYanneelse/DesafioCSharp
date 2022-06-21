@@ -12,11 +12,11 @@ namespace Carros {
         Ford, Chevrolet, Volkswagen, Fiat
     }
 
-    public enum Motores //botar de forma tradutiva umpontozero, umpontooito e não a, b, c
+    public enum Motores
     {
-        a,  // 1.0, 
-        b,  //1.8,
-        c   //2.0
+        umpontozero,  // 1.0, 
+        umpontooito,  //1.8,
+        doispontozero   //2.0
     }
 
     public abstract class CarroBase
@@ -24,6 +24,7 @@ namespace Carros {
         public string chassi;
         private string Chassi
         {
+            
             get { return chassi; } //vai ler o chassi
             set // e quando receber número vai passar pela validação
             {
@@ -76,11 +77,11 @@ namespace Carros {
         {
             switch (motor)
             {
-                case Motores.a :
+                case Motores.umpontozero :
                     return "1.0";
-                case Motores.b :
+                case Motores.umpontooito :
                     return "1.8";
-                case Motores.c :
+                case Motores.doispontozero :
                     return "2.0";           
             }
             return "0.0";
