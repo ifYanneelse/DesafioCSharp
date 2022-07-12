@@ -32,9 +32,12 @@ Método ToString(): retorne uma mensagem com todas as caracterísiticas do Carro
 
 <br>
 
-## Ferramentas utilizadas
+### Ferramentas utilizadas
 - Visual Studio
 - Console App (.NET Core)
+
+### Tecnologias utilizadas
+- C#
 
 ## Console Output
 
