@@ -37,9 +37,9 @@ Método ToString(): retorne uma mensagem com todas as caracterísiticas do Carro
 - Console App (.NET Core)
 
 ## Console Output
-<p width="100%">
-<img width="30%" src="https://github.com/ifYanneelse/DesafioCSharp/blob/dde920cc3ffe7788af40c397723abb0cbe2db515/img/imprimir.png"> 
-</p>
+
+<img max-width="15%" src="https://github.com/ifYanneelse/DesafioCSharp/blob/dde920cc3ffe7788af40c397723abb0cbe2db515/img/imprimir.png"> 
+
 
 ### How to run:
       Open solution: Carros.sln
@@ -47,10 +47,7 @@ Método ToString(): retorne uma mensagem com todas as caracterísiticas do Carro
 
 :x: fazer validação em Chassi: sem espaços em brancos e sem caracteres especiais
 #
-<br>
 
 ##### :orange_circle: Cigam DEVs
-
-<br>
 
 :date: 2022
